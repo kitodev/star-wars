@@ -1,0 +1,53 @@
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    margin: 1em;
+    flex: 1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-left-corner {
+    font-style: italic;
+    font-weight: 600;
+    text-align: justify;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 10px;
+}
+
+.card-header {
+    font-size: 1.5em;   
+    padding: 10px;
+}
+
+.selected {
+    border-color: #0fbcf9;
+    background-color: #4bcffa;
+    cursor: pointer;
+}
+
+.card-text {
+    padding: 10px;
+}
+
+.card-body {
+    text-align: justify;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 10px;
+}
+
+.card-footer{
+    text-align: end;
+    padding: 10px;
+}
